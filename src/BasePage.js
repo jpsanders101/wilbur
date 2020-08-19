@@ -29,12 +29,21 @@ export default function BasePage({ children }) {
         position: "fixed",
         height: "100vh",
         width: "100vw",
+        overflowY: "scroll",
       }}
     >
       <title>Niamh Gordon{titlePath}</title>
       <main className="main">
         <h1>Niamh Gordon</h1>
         {children}
+        <footer className="footer">
+          <a href="http://www.twitter.com/_niamhgordon">
+            <img src="twitter.svg" alt="Twitter logo" />
+          </a>
+          <a href="https://instagram.com/_niamhgordon">
+            <img src="insta.svg" alt="Instagram logo" />
+          </a>
+        </footer>
       </main>
     </div>
   );

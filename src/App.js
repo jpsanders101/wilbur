@@ -5,7 +5,6 @@ import Home from "./Home";
 import About from "./About";
 import Writing from "./Writing";
 import CV from "./CV";
-import Contact from "./Contact";
 
 function App() {
   return (
@@ -23,9 +22,6 @@ function App() {
           </Route>
           <Route path="/cv">
             <CV />
-          </Route>
-          <Route path="/contact">
-            <Contact />
           </Route>
         </Switch>
       </BasePage>
