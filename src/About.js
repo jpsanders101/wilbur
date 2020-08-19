@@ -4,15 +4,20 @@ import "./About.css";
 
 export default function About() {
   return (
-    <>
-      <p>
-        Niamh is a writer from Manchester,
-        <br />
-        currently living in Leeds.
-      </p>
-      <Link className="homeLink" to="/">
-        {"< Home"}
-      </Link>
-    </>
+    <div className="aboutPage">
+      <div>
+        <p className="copy">
+          Niamh is a writer from Manchester, currently living in Leeds.
+        </p>
+        <Link className="homeLink" to="/">
+          {"< Home"}
+        </Link>
+      </div>
+      <img
+        className="authorPhoto"
+        alt="Photo of Niamh Gordon"
+        src="./niamh.jpeg"
+      ></img>
+    </div>
   );
 }
