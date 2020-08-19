@@ -1,0 +1,11 @@
+.linkList {
+  list-style: none;
+  padding: 0;
+}
+
+.linkList a {
+  text-decoration: underline;
+  font-size: 23px;
+  color: black;
+  line-height: 40px;
+}
