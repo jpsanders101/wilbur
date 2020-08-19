@@ -5,7 +5,6 @@ import "./Home.css";
 export default function Home() {
   return (
     <div>
-      <h1>Niamh Gordon</h1>
       <ul className="linkList">
         <li>
           <Link className="link" to="/about">

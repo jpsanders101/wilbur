@@ -32,7 +32,10 @@ export default function BasePage({ children }) {
       }}
     >
       <title>Niamh Gordon{titlePath}</title>
-      <main className="main">{children}</main>
+      <main className="main">
+        <h1>Niamh Gordon</h1>
+        {children}
+      </main>
     </div>
   );
 }
