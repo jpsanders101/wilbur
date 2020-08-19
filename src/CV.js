@@ -4,7 +4,8 @@ import HomeLink from "./HomeLink";
 export default function CV() {
   return (
     <div>
-      <h1>CV</h1>
+      <h2>CV</h2>
+      <div>Forthcoming</div>
       <HomeLink />
     </div>
   );
