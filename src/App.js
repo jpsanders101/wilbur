@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import BasePage from "./BasePage";
 import Home from "./Home";
 import About from "./About";
@@ -22,6 +27,9 @@ function App() {
           </Route>
           <Route path="/cv">
             <CV />
+          </Route>
+          <Route path="*">
+            <Redirect to="/" />
           </Route>
         </Switch>
       </BasePage>
