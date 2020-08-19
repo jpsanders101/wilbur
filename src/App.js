@@ -1,13 +1,40 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import BasePage from './BasePage';
+import Home from './Home';
+import About from './About';
+import Writing from './Writing';
+import CV from './CV';
+import Contact from './Contact';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <h1><span role="img" aria-label="Construction sign">🚧 </span>Hi Niamh!<span role="img" aria-label="Construction sign"> 🚧</span><br />Your website is on its way, pal!</h1>
-      </header>
-    </div>
+    <Router>
+    <BasePage>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/writing">
+          <Writing />
+        </Route>
+        <Route path="/cv">
+          <CV />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+      </Switch>
+    </BasePage>
+    </Router>
   );
 }
 
