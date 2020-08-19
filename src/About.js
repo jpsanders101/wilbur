@@ -5,13 +5,15 @@ import "./About.css";
 export default function About() {
   return (
     <div className="aboutPage">
-      <div>
+      <div className="column">
         <p className="copy">
           Niamh is a writer from Manchester, currently living in Leeds.
         </p>
         <HomeLink />
       </div>
-      <img className="authorPhoto" alt="Niamh Gordon" src="./niamh.jpeg"></img>
+      <div className="column">
+        <div className="authorPhoto" />
+      </div>
     </div>
   );
 }
