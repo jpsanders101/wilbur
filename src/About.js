@@ -11,11 +11,7 @@ export default function About() {
         </p>
         <HomeLink />
       </div>
-      <img
-        className="authorPhoto"
-        alt="Photo of Niamh Gordon"
-        src="./niamh.jpeg"
-      ></img>
+      <img className="authorPhoto" alt="Niamh Gordon" src="./niamh.jpeg"></img>
     </div>
   );
 }
