@@ -13,11 +13,6 @@
   .aboutPage {
     flex-direction: row;
   }
-  .authorPhoto {
-    width: 40vw;
-    max-width: 300px;
-    object-fit: scale-down;
-  }
 }
 
 .copy {
