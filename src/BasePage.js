@@ -5,7 +5,7 @@ import "./BasePage.css";
 const backgroundColorMap = {
   "/": "#FDC2B1",
   "/about": "#9BE8DE",
-  "/writing": "EDDAFB",
+  "/writing": "#EDDAFB",
   "/cv": "#9BE8DE",
 };
 

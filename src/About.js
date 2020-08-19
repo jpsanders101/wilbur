@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import HomeLink from "./HomeLink";
 import "./About.css";
 
 export default function About() {
@@ -9,9 +9,7 @@ export default function About() {
         <p className="copy">
           Niamh is a writer from Manchester, currently living in Leeds.
         </p>
-        <Link className="homeLink" to="/">
-          {"< Home"}
-        </Link>
+        <HomeLink />
       </div>
       <img
         className="authorPhoto"
