@@ -6,7 +6,6 @@ import About from "./About";
 import Writing from "./Writing";
 import CV from "./CV";
 import Contact from "./Contact";
-import "./App.css";
 
 function App() {
   return (

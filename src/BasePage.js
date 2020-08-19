@@ -9,9 +9,18 @@ const backgroundColorMap = {
   "/cv": "#9BE8DE",
 };
 
+const titleMap = {
+  "/": " | Home",
+  "/about": " | About",
+  "/writing": " | Writing",
+  "/cv": " | CV",
+  "/contact": " | Contact",
+};
+
 export default function BasePage({ children }) {
   const { pathname } = useLocation();
   const backgroundColor = backgroundColorMap[pathname] || "#FDC2B1";
+  const titlePath = titleMap[pathname] || "";
   return (
     <div
       style={{
@@ -22,6 +31,7 @@ export default function BasePage({ children }) {
         width: "100vw",
       }}
     >
+      <title>Niamh Gordon{titlePath}</title>
       <main className="main">{children}</main>
     </div>
   );
