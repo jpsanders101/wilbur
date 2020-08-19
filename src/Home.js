@@ -18,7 +18,7 @@ export default function Home() {
           <Link to="/cv">CV</Link>
         </li>
         <li>
-          <a href="mailto:writing@email.com">Contact</a>
+          <a href="mailto:niamhgordonwrites@gmail.com">Contact</a>
         </li>
       </ul>
     </div>
