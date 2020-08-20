@@ -16,12 +16,15 @@
   .aboutPage {
     flex-direction: row;
   }
+  .column {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 700px) {
   .authorPhoto {
     width: 300px;
     height: 439px;
-  }
-  .column {
-    width: 50%;
   }
 }
 

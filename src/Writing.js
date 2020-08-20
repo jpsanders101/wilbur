@@ -12,7 +12,7 @@ export default function Writing() {
             ’Covering ground’ in{" "}
             <span className="publication">Return Trip Issue 02</span>
           </span>
-          <span className="date">[forthcoming Spring 2020]</span>
+          <span className="date">[forthcoming Autumn 2020]</span>
         </div>
         <div className="writingItem">
           <span className="title">
@@ -31,7 +31,7 @@ export default function Writing() {
               <a href="https://beyondcriticism.net">beyondcriticism.net</a>
             </span>
           </span>
-          <span className="date">[forthcoming Spring 2020]</span>
+          <span className="date">[forthcoming Winter 2021]</span>
         </div>
         <h3 className="genre">POETRY</h3>
         <div className="writingItem">
