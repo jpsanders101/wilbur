@@ -12,7 +12,7 @@
   flex-direction: column-reverse; 
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 750px) {
   .aboutPage {
     flex-direction: row;
   }
@@ -21,7 +21,7 @@
   }
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 750px) {
   .authorPhoto {
     width: 300px;
     height: 439px;
@@ -29,5 +29,32 @@
 }
 
 .copy {
+  margin-top: 0;
   padding-right: 20px;
+  float: none;
+}
+
+.authorPhotoFloat {
+  display: none;
+}
+
+@media only screen and (min-width: 550px) {
+  .authorPhotoFloat {
+    display: initial;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .authorPhotoFlex {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .authorPhotoFloat {
+    display: none;
+  }
+  .authorPhotoFlex {
+    display: block;
+  }
 }
