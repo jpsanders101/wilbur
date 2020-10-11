@@ -9,6 +9,7 @@ import BasePage from "./BasePage";
 import Home from "./Home";
 import About from "./About";
 import Writing from "./Writing";
+import Lacuna from "./Lacuna";
 import CV from "./CV";
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
           </Route>
           <Route path="/writing">
             <Writing />
+          </Route>
+          <Route path="/lacuna">
+            <Lacuna />
           </Route>
           <Route path="/cv">
             <CV />

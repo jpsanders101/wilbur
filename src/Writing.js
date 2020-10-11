@@ -1,6 +1,7 @@
 import React from "react";
 import "./Writing.css";
 import HomeLink from "./HomeLink";
+import { Link } from "react-router-dom";
 
 export default function Writing() {
   return (
@@ -9,11 +10,22 @@ export default function Writing() {
         <h3 className="genre">FICTION</h3>
         <div className="writingItem">
           <span className="title">
+            ’
+            <a href="https://flashfictionmagazine.com/blog/2020/10/01/a-rich-mans-game/">
+              A Rich Man’s Game
+            </a>
+            ’ in <span className="publication">Flash Fiction Magazine</span>
+          </span>
+          <span className="date">[Autumn 2020]</span>
+        </div>
+        <div className="writingItem">
+          <span className="title">
             ’Covering ground’ in{" "}
             <span className="publication">Return Trip Issue 02</span>
           </span>
           <span className="date">[forthcoming Autumn 2020]</span>
         </div>
+
         <div className="writingItem">
           <span className="title">
             ’Millenial Pink’ in{" "}
@@ -21,7 +33,7 @@ export default function Writing() {
               UEA MA Prose Fiction Anthology 2018
             </span>
           </span>
-          <span className="date">[2018]</span>
+          <span className="date">[Autumn 2018]</span>
         </div>
         <h3 className="genre">ESSAYS</h3>
         <div className="writingItem">
@@ -36,10 +48,10 @@ export default function Writing() {
         <h3 className="genre">POETRY</h3>
         <div className="writingItem">
           <span className="title">
-            ’Lacuna’ in
+            ’<Link to="/lacuna">Lacuna</Link>’ in
             <span className="publication"> Write Young Things Volume 2</span>
           </span>
-          <span className="date">[2018]</span>
+          <span className="date">[Winter 2018]</span>
         </div>
       </section>
       <HomeLink />

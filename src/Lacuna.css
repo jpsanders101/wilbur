@@ -1,0 +1,41 @@
+.lacuna {
+  width: 100%;
+  margin: 30px auto;
+  display: block;
+}
+@media only screen and (min-width: 600px) {
+  .lacuna {
+    width: 80%;
+  }
+}
+
+.genre {
+  width: 100%;
+  font-size: 25px;
+  margin: 40px 0 0;
+}
+.title {
+  display: block;
+  flex-shrink: 1;
+}
+.date {
+  display: block;
+  padding-left: 30px;
+  flex-shrink: 0;
+}
+
+.writingItem {
+  margin: 25px 0;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .writingItem {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.publication {
+  font-style: italic;
+}
