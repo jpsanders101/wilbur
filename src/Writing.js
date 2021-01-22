@@ -10,13 +10,12 @@ export default function Writing() {
         <h3 className="genre">FICTION</h3>
         <div className="writingItem">
           <span className="title">
-            ’
-            <a href="https://flashfictionmagazine.com/blog/2020/10/01/a-rich-mans-game/">
-              A Rich Man’s Game
-            </a>
-            ’ in <span className="publication">Flash Fiction Magazine</span>
+            ’Empty Space’ in{" "}
+            <span className="publication">
+              Still Point Journal, Issue 5: Presence
+            </span>
           </span>
-          <span className="date">[Autumn 2020]</span>
+          <span className="date">[forthcoming Spring 2021]</span>
         </div>
         <div className="writingItem">
           <span className="title">
@@ -25,15 +24,15 @@ export default function Writing() {
           </span>
           <span className="date">[forthcoming Autumn 2020]</span>
         </div>
-
         <div className="writingItem">
           <span className="title">
-            ’Millenial Pink’ in{" "}
-            <span className="publication">
-              UEA MA Prose Fiction Anthology 2018
-            </span>
+            ’
+            <a href="https://flashfictionmagazine.com/blog/2020/10/01/a-rich-mans-game/">
+              A Rich Man’s Game
+            </a>
+            ’ in <span className="publication">Flash Fiction Magazine</span>
           </span>
-          <span className="date">[Autumn 2018]</span>
+          <span className="date">[Autumn 2020]</span>
         </div>
         <h3 className="genre">ESSAYS</h3>
         <div className="writingItem">

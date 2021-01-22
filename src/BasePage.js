@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import "./BasePage.css";
 
 const backgroundColorMap = {
@@ -34,7 +34,9 @@ export default function BasePage({ children }) {
     >
       <title>Niamh Gordon{titlePath}</title>
       <main className="main">
-        <h1>Niamh Gordon</h1>
+        <Link className="name-header" to="/">
+          <h1>Niamh Gordon</h1>
+        </Link>
         {children}
         <footer className="footer">
           <a href="http://www.twitter.com/_niamhgordon">
