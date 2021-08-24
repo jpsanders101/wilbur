@@ -24,18 +24,6 @@
   flex-shrink: 0;
 }
 
-.writingItem {
-  margin: 25px 0;
-}
-
-
-@media only screen and (min-width: 600px) {
-  .writingItem {
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
 .publication {
   font-style: italic;
 }

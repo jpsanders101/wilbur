@@ -7,20 +7,24 @@ export default function Writing() {
   return (
     <>
       <section>
-        <h3 className="genre">FICTION</h3>
         <div className="writingItem">
           <span className="title">
             ’Empty Space’ in{" "}
-            <span className="publication">
+            <a
+              href="https://www.stillpointldn.com/articles/the-still-point-journal-5-presence/"
+              className="publication"
+            >
               Still Point Journal, Issue 5: Presence
-            </span>
+            </a>
           </span>
           <span className="date">[forthcoming Spring 2021]</span>
         </div>
         <div className="writingItem">
           <span className="title">
             ’Covering ground’ in{" "}
-            <span className="publication">Return Trip Issue 02</span>
+            <a href="http://returntrip.ca/issuetwo" className="publication">
+              Return Trip Issue 02
+            </a>
           </span>
           <span className="date">[forthcoming Autumn 2020]</span>
         </div>
@@ -34,17 +38,6 @@ export default function Writing() {
           </span>
           <span className="date">[Autumn 2020]</span>
         </div>
-        <h3 className="genre">ESSAYS</h3>
-        <div className="writingItem">
-          <span className="title">
-            {`’Allopoeitics as criticism: an experiment in form’ on `}
-            <span className="publication">
-              <a href="https://beyondcriticism.net">beyondcriticism.net</a>
-            </span>
-          </span>
-          <span className="date">[forthcoming Winter 2021]</span>
-        </div>
-        <h3 className="genre">POETRY</h3>
         <div className="writingItem">
           <span className="title">
             ’<Link to="/lacuna">Lacuna</Link>’ in
