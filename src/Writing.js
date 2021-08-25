@@ -17,16 +17,16 @@ export default function Writing() {
               Still Point Journal, Issue 5: Presence
             </a>
           </span>
-          <span className="date">[forthcoming Spring 2021]</span>
+          <span className="date">[Spring 2021]</span>
         </div>
         <div className="writingItem">
           <span className="title">
-            ’Covering ground’ in{" "}
+            ’Covering Ground in Berlin’ in{" "}
             <a href="http://returntrip.ca/issuetwo" className="publication">
               Return Trip Issue 02
             </a>
           </span>
-          <span className="date">[forthcoming Autumn 2020]</span>
+          <span className="date">[Autumn 2020]</span>
         </div>
         <div className="writingItem">
           <span className="title">
