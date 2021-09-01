@@ -26,7 +26,7 @@ export default function Writing() {
               Return Trip Issue 02
             </a>
           </span>
-          <span className="date">[Autumn 2020]</span>
+          <span className="date">[Spring 2021]</span>
         </div>
         <div className="writingItem">
           <span className="title">
