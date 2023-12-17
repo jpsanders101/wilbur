@@ -35,7 +35,7 @@ export default function BasePage({ children }) {
       <title>Niamh Gordon{titlePath}</title>
       <main className="main">
         <Link className="name-header" to="/">
-          <h1>Niamh Gordon</h1>
+          <h1>Niamh Gordon.</h1>
         </Link>
         {children}
         <footer className="footer">
