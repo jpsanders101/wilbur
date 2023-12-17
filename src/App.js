@@ -29,9 +29,6 @@ function App() {
           <Route path="/lacuna">
             <Lacuna />
           </Route>
-          <Route path="/cv">
-            <CV />
-          </Route>
           <Route path="*">
             <Redirect to="/" />
           </Route>

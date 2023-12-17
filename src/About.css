@@ -9,13 +9,14 @@
 .aboutPage {
   display: flex;
   justify-content: space-between;
-  flex-direction: column-reverse; 
+  flex-direction: column-reverse;
 }
 
 @media only screen and (min-width: 750px) {
   .aboutPage {
     flex-direction: row;
   }
+
   .column {
     width: 50%;
   }
@@ -29,7 +30,7 @@
 }
 
 .copy {
-  margin-top: 0;
+  margin: 0;
   padding-right: 20px;
   float: none;
 }
@@ -38,23 +39,38 @@
   display: none;
 }
 
-@media only screen and (min-width: 550px) {
+/* @media only screen and (min-width: 550px) {
   .authorPhotoFloat {
     display: initial;
     float: right;
     margin-left: 20px;
     margin-bottom: 20px;
   }
+
   .authorPhotoFlex {
     display: none;
   }
-}
+} */
 
 @media only screen and (min-width: 750px) {
   .authorPhotoFloat {
     display: none;
   }
+
   .authorPhotoFlex {
     display: block;
   }
+}
+
+.writing-list {
+  padding-inline-start: 5px;
+  list-style: none;
+}
+
+.writing-list li {
+  margin-bottom: 5px;
+}
+
+.italics {
+  font-style: italic;
 }

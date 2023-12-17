@@ -11,12 +11,12 @@ export default function Home() {
             About
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/writing">Writing</Link>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <Link to="/cv">CV</Link>
-        </li>
+        </li> */}
         <li>
           <a href="mailto:niamhgordonwrites@gmail.com">Contact</a>
         </li>
