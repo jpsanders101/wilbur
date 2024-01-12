@@ -1,0 +1,19 @@
+.main {
+  width: 80%;
+  margin: 4em auto;
+  max-width: 800px;
+}
+
+.footer {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.footer img {
+  margin: 15px;
+  width: 30px;
+}
+
+.name-header {
+  text-decoration: none;
+}
