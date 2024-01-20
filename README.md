@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Wilbur
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A personal website for a friend. Bootstrapped with create-react-app and deployed to Netlify.
 
 ## Available Scripts
 
