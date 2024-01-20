@@ -17,3 +17,14 @@
 .name-header {
   text-decoration: none;
 }
+
+.heading {
+  margin-bottom: 0;
+}
+
+.contact {
+  display: block;
+  margin-bottom: 1em;
+  margin-right: 2em;
+  text-align: right;
+}

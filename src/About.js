@@ -5,9 +5,6 @@ export default function About() {
   return (
     <>
       <p className="copy">
-      BIO
-            <br />
-            <br />
             I am a writer, researcher and editor from Manchester, currently based in Glasgow. I work as a Research Assistant with <a rel="noreferrer" target="_blank" href="https://deathwrites.org.uk/">the DeathWrites Network</a>. I am also a part-time DFA candidate in Creative Writing at the University of Glasgow, and a parent to a toddler.
             <br />
             <br />
@@ -15,7 +12,7 @@ export default function About() {
             RESEARCH
             <br />
             <br />
-            My <a href="https://www.gla.ac.uk/pgrs/niamhgordon/" target="_blank"  rel="noreferrer">AHRC-funded doctorate</a> investigates the relationships between narrative, time, and trauma, through a practice-based exploration of the impact of bereavement by suicide on narrative time. I also research Ali Smith, and experimental writing. I work across narratology, critical medical humanities, and creative writing. At the University of Glasgow I have taught courses on poetry and poetics, experimental writing, and writing the body. I co-edited the literary magazine <a rel="noreferrer" href="https://glasgowtosaturn.com/" target="_blank" className="italics">From Glasgow to Saturn</a> from 2020-2021, and currently edit the <a href="https://deathwrites.org.uk/blog" target="_blank" rel="noreferrer">DeathWrites blog</a>.
+            My <a href="https://www.gla.ac.uk/pgrs/niamhgordon/" target="_blank"  rel="noreferrer">AHRC-funded doctorate</a> investigates the relationships between narrative, time, and trauma, through a practice-based exploration of the impact of bereavement by suicide on narrative time. I also research Ali Smith, and experimental writing. I work across narratology, critical medical humanities, and creative writing. At the University of Glasgow I have taught courses on poetry and poetics, experimental writing, and writing the body. I co-edited the literary magazine <a rel="noreferrer" href="https://glasgowtosaturn.com/" target="_blank" className="italics">From Glasgow to Saturn</a> from 2020-2021, and currently edit the <a href="https://deathwrites.org.uk/blog" target="_blank" rel="noreferrer">DeathWrites blog.</a>
             <br />
             <br />
             <br />
