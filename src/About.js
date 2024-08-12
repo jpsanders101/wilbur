@@ -57,6 +57,7 @@ export default function About() {
         >
           DeathWrites blog
         </a>
+        .
         <br />
         <br />
         <br />
@@ -87,18 +88,34 @@ export default function About() {
         can subscribe here:
         <br />
         <br />
-        <iframe
-          title="notes from home"
-          src="https://niamhgordon.substack.com/embed"
-          width="480"
-          height="320"
-          style={{
-            border: "1px solid #EEE",
-            background: "white",
-          }}
-          frameborder="0"
-          scrolling="no"
-        ></iframe>
+        <div className="mobile-substack">
+          <iframe
+            title="notes from home"
+            src="https://niamhgordon.substack.com/embed"
+            width="100%"
+            height="320"
+            style={{
+              border: "1px solid #EEE",
+              background: "white",
+            }}
+            frameborder="0"
+            scrolling="no"
+          ></iframe>
+        </div>
+        <div className="desktop-substack">
+          <iframe
+            title="notes from home"
+            src="https://niamhgordon.substack.com/embed"
+            width="480"
+            height="320"
+            style={{
+              border: "1px solid #EEE",
+              background: "white",
+            }}
+            frameborder="0"
+            scrolling="no"
+          ></iframe>
+        </div>
         <br />
         <br />
         2024

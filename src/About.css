@@ -31,26 +31,12 @@
 
 .copy {
   margin: 0;
-  padding-right: 20px;
   float: none;
 }
 
 .authorPhotoFloat {
   display: none;
 }
-
-/* @media only screen and (min-width: 550px) {
-  .authorPhotoFloat {
-    display: initial;
-    float: right;
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-
-  .authorPhotoFlex {
-    display: none;
-  }
-} */
 
 @media only screen and (min-width: 750px) {
   .authorPhotoFloat {
