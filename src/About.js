@@ -19,10 +19,6 @@ export default function About() {
         Studies at the University of Glasgow.
         <br />
         <br />
-        <br />
-        RESEARCH
-        <br />
-        <br />
         In 2018 I gained an MA in Prose Fiction from the University of East
         Anglia. I began my{" "}
         <a
@@ -58,10 +54,6 @@ export default function About() {
           DeathWrites blog
         </a>
         .
-        <br />
-        <br />
-        <br />
-        WRITING
         <br />
         <br />I write short fiction, poetry, and essays, a selection of which
         are linked below. I am working on a novel as part of my PhD; an early
@@ -116,8 +108,7 @@ export default function About() {
             scrolling="no"
           ></iframe>
         </div>
-        <br />
-        <br />
+        <h3>SELECTED WRITING</h3>
         2024
         <ul className="writing-list">
           <li>
