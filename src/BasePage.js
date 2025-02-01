@@ -1,6 +1,7 @@
 import React from "react";
 // import { useLocation, Link } from "react-router-dom";
 import "./BasePage.css";
+import { NavLink, Link } from "react-router";
 
 const backgroundColorMap = {
   "/": "#FDC2B1",
@@ -35,8 +36,36 @@ export default function BasePage({ children }) {
     >
       <title>Niamh Gordon{titlePath}</title>
       <main className="main">
-          <h1 className="heading">Niamh Gordon</h1>
-          <a className="contact" href="mailto:niamhgordonwrites@gmail.com">Contact me</a>
+        <h1 className="heading">Niamh Gordon</h1>
+        <nav className="nav-bar">
+          <NavLink
+            to="/"
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            Home
+          </NavLink>
+          <span> | </span>
+          <NavLink
+            to="/writing"
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            Writing
+          </NavLink>
+          <span> | </span>
+          <NavLink
+            to="/current-projects"
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            Current Projects
+          </NavLink>
+          <span> | </span>
+          <NavLink
+            to="/contact"
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            Contact me
+          </NavLink>
+        </nav>
         {children}
         <footer className="footer">
           <a href="http://www.twitter.com/_niamhgordon">
