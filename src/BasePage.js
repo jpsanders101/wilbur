@@ -61,7 +61,7 @@ export default function BasePage({ children }) {
             to="/contact"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
-            Contact me
+            Contact
           </NavLink>
         </nav>
         {children}
