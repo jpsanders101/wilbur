@@ -1,26 +1,24 @@
 import React from "react";
-// import { useLocation, Link } from "react-router-dom";
 import "./BasePage.css";
-import { NavLink, Link } from "react-router";
+import { NavLink } from "react-router";
+import { useLocation } from "react-router";
 
 const backgroundColorMap = {
   "/": "#FDC2B1",
-  "/about": "#9BE8DE",
+  "/current-projects": "#9BE8DE",
   "/writing": "#EDDAFB",
-  "/cv": "#9BE8DE",
+  "/contact": "#b1eafc",
 };
 
 const titleMap = {
   "/": " | Home",
-  "/about": " | About",
   "/writing": " | Writing",
-  "/cv": " | CV",
+  "/current-projects": " | Current Projects",
   "/contact": " | Contact",
 };
 
 export default function BasePage({ children }) {
-  // const { pathname } = useLocation();
-  const pathname = "/";
+  const { pathname } = useLocation();
   const backgroundColor = backgroundColorMap[pathname] || "#FDC2B1";
   const titlePath = titleMap[pathname] || "";
   return (
