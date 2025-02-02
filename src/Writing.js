@@ -52,7 +52,7 @@ export default function Writing() {
         <a
           rel="noreferrer"
           target="_blank"
-          href="https://niamhgordon.substack.com/"
+          href="https://niamhgordon.substack.com/subscribe"
         >
           subscribe here
         </a>
@@ -64,88 +64,93 @@ export default function Writing() {
             pamphlet
           </li>
           <li>
+            ‘Food’ - short fiction in{" "}
             <a
               rel="noreferrer"
               target="_blank"
               href="https://uk.bookshop.org/p/books/don-t-even-ask-too-hot-new-writing-scotland-42-kirstin-innes/7704972?ean=9781906841614"
             >
-              ‘Food’
+              New Writing Scotland
             </a>{" "}
-            - short fiction in New Writing Scotland 42
+            42
           </li>
           <li>
+            ‘Behind Some of the Scenes at the Museum’ – flash non-fiction in the{" "}
             <a
               rel="noreferrer"
               target="_blank"
               href="https://eprints.gla.ac.uk/325834/1/325834.pdf"
             >
-              ‘Behind Some of the Scenes at the Museum’
-            </a>{" "}
-            – flash non-fiction in the DeathWrites Newspaper
+              DeathWrites Newspaper
+            </a>
           </li>
           <li>
+            ’Birth lament’ and ‘Dispatch from now’ - two poems in{" "}
             <a
               rel="noreferrer"
               target="_blank"
               href="https://www.strixleeds.com/shop/strix-10"
             >
-              ’Birth lament’ and ‘Dispatch from now’
+              Strix
             </a>{" "}
-            - two poems in Strix #10
+            #10
           </li>
           <li>
+            ‘Allopoeitics as criticism’ – peer-reviewed experimental essay in{" "}
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://english.exeter.ac.uk/media/universityofexeter/collegeofhumanities/english/research/exclamationjournal/Exclamation_Volume_6.pdf"
+              href="https://english.exeter.ac.uk/research/publications/exclamation/"
             >
-              ‘Allopoeitics as criticism’
+              Exclamat!on
             </a>{" "}
-            – peer-reviewed experimental essay in Exclamat!on, Issue 6
+            , Issue 6
           </li>
           <li>
+            ‘Grief, reading, and narrative time’ - essay in{" "}
             <a
               rel="noreferrer"
               target="_blank"
               href="https://thepolyphony.org/2021/11/11/grief-reading-and-narrative-time/"
             >
-              ‘Grief, reading, and narrative time’
-            </a>{" "}
-            - essay on The Polyphony
+              The Polyphony
+            </a>
           </li>
           <li>
+            ‘Empty Space’ – short fiction in{" "}
             <a
               href="https://www.stillpointldn.com/articles/niamh-gordon-empty-space/"
               target="_blank"
               rel="noreferrer"
             >
-              ‘Empty Space’
+              Still Point Journal
             </a>{" "}
-            – short fiction in Still Point Journal, Issue 5: Presence
+            , Issue 5: Presence
           </li>
           <li>
+            ‘Covering Ground in Berlin’ – short fiction in{" "}
             <a
               href="https://returntrip.bigcartel.com/product/return-trip-spring-summer-2021"
               target="_blank"
               rel="noreferrer"
             >
-              ‘Covering Ground in Berlin’
+              Return Trip
             </a>{" "}
-            – short fiction in Return Trip, Issue 02
+            , Issue 02
           </li>
           <li>
+            ‘A Rich Man’s Game’ – flash fiction in{" "}
             <a
               target="_blank"
               href="https://flashfictionmagazine.com/blog/2020/10/01/a-rich-mans-game/"
               rel="noreferrer"
             >
-              ‘A Rich Man’s Game’
-            </a>{" "}
-            – flash fiction in Flash Fiction Magazine
+              Flash Fiction Magazine
+            </a>
           </li>
         </ul>
       </p>
-      <div className="mobile-substack">
+      {/* <div className="mobile-substack">
         <iframe
           title="notes from home"
           src="https://niamhgordon.substack.com/embed"
@@ -158,8 +163,8 @@ export default function Writing() {
           frameborder="0"
           scrolling="no"
         ></iframe>
-      </div>
-      <div className="desktop-substack">
+      </div> */}
+      {/* <div className="desktop-substack">
         <iframe
           title="notes from home"
           src="https://niamhgordon.substack.com/embed"
@@ -172,7 +177,7 @@ export default function Writing() {
           frameborder="0"
           scrolling="no"
         ></iframe>
-      </div>
+      </div> */}
     </>
   );
 }

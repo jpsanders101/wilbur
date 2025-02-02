@@ -54,3 +54,7 @@
 .nav-bar {
   margin-bottom: 1em;
 }
+
+.italics {
+  font-style: italic;
+}

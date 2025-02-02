@@ -78,8 +78,9 @@ export default function CurrentProjects() {
           Millie Walton
         </a>
         . I’m assisting in the curation of the first Babe Station exhibition of
-        contemporary art and writing, Sorry about the mess, which is supported
-        by{" "}
+        contemporary art and writing,{" "}
+        <span className="italics">Sorry about the mess</span>, which is
+        supported by{" "}
         <a target="_blank" href="https://bowarts.org/" rel="noreferrer">
           Bow Arts
         </a>{" "}
@@ -92,14 +93,15 @@ export default function CurrentProjects() {
       </p>
       <h3>Alasdair Gray Archive</h3>
       <p>
-        In 2025 I will be taking up a creative internship at the <a
+        In 2025 I will be taking up a creative internship at the{" "}
+        <a
           target="_blank"
           href="https://thealasdairgrayarchive.org/"
           rel="noreferrer"
         >
-          Alasdair Gray
-        </a> Archive, funded by the Scottish Graduate School of Arts and Humanities,
-        with the aim of generating new creative work through engagement with the
+          Alasdair Gray Archive
+        </a>, funded by the Scottish Graduate School of Arts and Humanities, with
+        the aim of generating new creative work through engagement with the
         archive’s materials, and organising a public creative writing workshop
         based around ideas of intertextual play.
       </p>

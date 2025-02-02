@@ -65,14 +65,6 @@ export default function BasePage({ children }) {
           </NavLink>
         </nav>
         {children}
-        <footer className="footer">
-          <a href="http://www.twitter.com/_niamhgordon">
-            <img src="twitter.svg" alt="Twitter logo" />
-          </a>
-          <a href="https://instagram.com/_niamhgordon">
-            <img src="insta.svg" alt="Instagram logo" />
-          </a>
-        </footer>
       </main>
     </div>
   );
