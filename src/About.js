@@ -15,11 +15,11 @@ export default function About() {
         <p>Niamh writes across forms, including short fiction, poetry, and experimental essays, and is working on her debut novel. She is represented by <Link to="https://aitkenalexander.co.uk/literary-agents/harriet-moore">Harriet Moore</Link> at <Link to="https://aitkenalexander.co.uk/">Aitken Alexander Associates</Link>.</p>
       </p>
       <p>
-        For examples of my published writing,{" "}
+        For examples of her published writing,{" "}
         <Link to={"/writing"}>head here</Link>.
       </p>
       <p>
-        For information about my current work,{" "}
+        For information about her current work,{" "}
         <Link to={"/current-projects"}>click here</Link>.
       </p>
       <p>

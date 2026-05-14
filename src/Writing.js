@@ -26,9 +26,13 @@ export default function Writing() {
         A selection of published writing is linked below:
       </p>
         <ul className="writing-list">
-          <li>‘<a href="https://creativecritical.net/expulsion-niamh-gordon/">expulsion</a>’ – creative non-fic, <a href="https://creativecritical.net">creative-critical.net</a></li>
-          <li>‘<a href="https://www.babestation.org.uk/shop/p/vwebrwshbrlsa6c55il6qabz93mmd3">four poems</a>’ – poetry pamphlet, Babe Station for ‘Sorry about the mess’ exhibition</li>
-          <li>‘<a href="https://www.guttermag.co.uk/getgutter/p/gutter-31">The Rothko room</a>’ – short fiction in Gutter</li>
+          <li>‘<a rel="noreferrer"
+          target="_blank" href="https://creativecritical.net/expulsion-niamh-gordon/">expulsion</a>’ – creative non-fic, <a rel="noreferrer"
+          target="_blank" href="https://creativecritical.net">creative-critical.net</a></li>
+          <li>‘<a rel="noreferrer"
+          target="_blank" href="https://www.babestation.org.uk/shop/p/vwebrwshbrlsa6c55il6qabz93mmd3">four poems</a>’ – poetry pamphlet, Babe Station for ‘Sorry about the mess’ exhibition</li>
+          <li>‘<a rel="noreferrer"
+          target="_blank" href="https://www.guttermag.co.uk/getgutter/p/gutter-31">The Rothko room</a>’ – short fiction in Gutter</li>
           <li>
             ‘<a
               rel="noreferrer"
@@ -78,34 +82,6 @@ export default function Writing() {
               Flash Fiction Magazine
           </li>
         </ul>
-      {/* <div className="mobile-substack">
-        <iframe
-          title="notes from home"
-          src="https://niamhgordon.substack.com/embed"
-          width="100%"
-          height="320"
-          style={{
-            border: "1px solid #EEE",
-            background: "white",
-          }}
-          frameborder="0"
-          scrolling="no"
-        ></iframe>
-      </div> */}
-      {/* <div className="desktop-substack">
-        <iframe
-          title="notes from home"
-          src="https://niamhgordon.substack.com/embed"
-          width="480"
-          height="320"
-          style={{
-            border: "1px solid #EEE",
-            background: "white",
-          }}
-          frameborder="0"
-          scrolling="no"
-        ></iframe>
-      </div> */}
     </>
   );
 }
