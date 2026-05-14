@@ -11,11 +11,8 @@ export default function About() {
           src="NG-july-24.jpg"
           alt="Niamh Gordon"
         ></img>
-        Hi! I’m a writer, researcher and editor from Manchester, based in
-        Glasgow. I am studying (part-time) for an interdisciplinary PhD in
-        creative writing, narrative studies and medical humanities at the
-        University of Glasgow. Generally I write across forms, including short
-        fiction, poetry, and experimental essays, and I’m working on a novel.
+        <p>Niamh Gordon is a writer and researcher. She grew up in Manchester and lives in Glasgow, where she is in the final year of an interdisciplinary PhD in creative writing, narrative studies and medical humanities.</p>
+        <p>Niamh writes across forms, including short fiction, poetry, and experimental essays, and is working on her debut novel. She is represented by <Link to="https://aitkenalexander.co.uk/literary-agents/harriet-moore">Harriet Moore</Link> at <Link to="https://aitkenalexander.co.uk/">Aitken Alexander Associates</Link>.</p>
       </p>
       <p>
         For examples of my published writing,{" "}

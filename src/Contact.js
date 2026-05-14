@@ -6,29 +6,13 @@ export default function CurrentProjects() {
     <>
     <br />
       <p>
-        Email:{" "}
-        <a href="mailto:niamhgordonwrites@gmail.com">
-          niamhgordonwrites@gmail.com
-        </a>
+        For enquires and commissions, please contact Niamh’s agent <a href="https://aitkenalexander.co.uk/literary-agents/harriet-moore">Harriet Moore</a> at <a href="mailto:harriet@aitkenalexander.co.uk">harriet@aitkenalexander.co.uk</a>, or you can reach Niamh directly at <a href="mailto:niamhgordonwrites@gmail.com">niamhgordonwrites@gmail.com</a>.
       </p>
       <p>
-        Substack:{" "}
-        <a
-          target="_blank"
-          href="https://niamhgordon.substack.com/"
-          rel="noreferrer"
-        >
-          niamhgordon.substack.com
-        </a>
+        Substack: <a href="niamhgordon.substack.com">niamhgordon.substack.com</a>
       </p>
       <p>
-        Insta: <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.instagram.com/_niamhgordon/"
-        >
-          @_niamhgordon
-        </a>
+        Insta: <a href="http://instagram.com/_niamhgordon/">@_niamhgordon</a>
       </p>
     </>
   );
