@@ -11,7 +11,7 @@ export default function CurrentProjects() {
         <li>a paper on unreliable narrators at the ISSN Narrative conference, University of Aarhus (June 26)</li>
         <li>participation in the roundtable at the Time, Memory and Representation seminar hosted by SELMA, University of Turku (March 26)</li>
         <li>a paper on writing the artist self at the Performativity(ies) of Memory(ies) Interdisciplinary Conference, Polytechnic University of Viana do Castelo (Oct 25)</li>
-        <li>a paper on essaying and walking as creative practice at the Creatical Idiolects Symposium, University of Lancaster (Dec 2024)</li>
+        <li>a paper on essaying and walking as creative practice at the Creatical Idiolects Symposium, University of Lancaster (Dec 24)</li>
       </ul>
       <h3>Workshops</h3>
       <p>Niamh has designed and facilitated a variety of creative workshops including:</p>
